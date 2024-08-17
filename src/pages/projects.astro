@@ -5,40 +5,48 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">app逆向</div>
   </div>
-
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+  <!--TODO 分行展示 -->
+  <!--TODO 图片大小调整 -->
+  <HorizontalCard 
+    title="纷玩岛抢票 "
+    img="/纷玩岛图标.webp"
+    desc="用脱壳机脱壳，编写代码实现多账号脱机抢票、监测回流票等功能；成功抢到x场热门演唱会门票。"
+    url="https://github.com/teapot-4l8/fenwandao"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="提供给开发者的安全入门 app"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="总结并复刻市面上常见的十余种 app 防护手段，为开发者提供实用的安全防护模板。研究市面上的优秀 app，还原/借鉴 HTTPS 协议中参数的加密逻辑。作为项目负责人完成大学生创新创业训练计划，评级为北京市良好。"
+    url="https://github.com/teapot-4l8/project"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="京东商品价格监测软件"
+    img="/post_img.webp"
+    desc="基于京东 APP 的逆向分析，使用 unidbg 主动调用 so 层算法，使用 python 的 pyqt5 库编写 UI。实现功能：增删改查商品链接、设定价格阈值、自动发送邮件通知用户。"
+    url="https://gitee.com/teapot_418/jd"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">js逆向</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
+    title="正方教务系统抢课脚本"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="支持多线程抢课以及满人课程捡漏的 python 程序；解决 cookie 反爬及密码加密算法逆向。在B站发布教学视频，系列视频总播放量达到 10w+，吸引 1300 多名粉丝关注，帮助数百名大学生成功抢课。"
+    url="https://github.com/teapot-4l8/fudgeclass"
     badge="FOSS"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
+    title="验证码逆向"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc="逆向极验 4 代的滑块验证码和艺龙点选验证码，处理了若干参数的加密算法。编写滑块轨迹算法，模拟真人操作数据，使用 python 中的 requests 库发送请求。根据调用栈寻找加密参数位置，编写 python 脚本解混淆。"
     url="#"
   />
   <div class="divider my-0"></div>
@@ -48,4 +56,20 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
   />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">微信小程序逆向</div>
+  </div>
+
+  <HorizontalCard
+  title="“投票儿”小程序刷票"
+  img="/post_img.webp"
+  desc="使用代理ip，建立数据库管理已创建用户。逆向`annikey` `sk`参数伪造创建用户请求。每分钟可刷xxx票，成功让幸运观众冲到榜一"
+  url="https://github.com/teapot-4l8/fudgeclass"
+/>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">其它</div>
+  </div>
+
 </BaseLayout>

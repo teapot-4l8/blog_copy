@@ -4,13 +4,13 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">个人简历</div>
   </div>
 
   <div class="mb-10 text-justify">  
     “一句话形容不了我”
-  </div>
+  </div> -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">教育经历</div>
@@ -29,18 +29,19 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">技术能力</div>
-    <div>😀	熟练 Python 爬虫(正则/xpath 提取资源、ip 代理池、scrapy 分布式爬虫)。</div>
-    <div>😀	熟悉静态分析、动态调试、Frida/Xposed常见hook技术。</div>
-    <div>😀	具备 Java、JavaScript、C/C++、smali、php、c#、arm 汇编语言的阅读能力。</div>
-    <div>😀	熟悉 jadx/ida/jeb 等逆向工具；会刷脱壳机。</div>
-    <div>😀	逆向分析过小红书、京东、bilibili等大厂app的协议。</div>
-    <div>😀	熟练使用Charles、mitmproxy等工具抓包，会编写frida脚本抓包和自吐算法脚本。</div>
-    <div>😀	会 JS 和微信小程序逆向技术，能够分析混淆代码和某些点选验证码/滑块；了解 AST。</div>
-    <div>😀	拥有出色的学习能力，能够阅读英文文献，快速掌握新知识和技能，适应不断变化的技术环境。</div>
   </div>
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>熟练 Python 爬虫(正则/xpath 提取资源、ip 代理池、scrapy 分布式爬虫)。</li>
+    <li>熟悉静态分析、动态调试、Frida/Xposed常见hook技术。</li>
+    <li>具备 Java、JavaScript、C/C++、smali、php、c#、arm 汇编语言的阅读能力。</li>
+    <li>熟悉 jadx/ida/jeb 等逆向工具；会刷脱壳机。</li>
+    <li>逆向分析过小红书、京东、bilibili等大厂app的协议。</li>
+    <li>熟练使用Charles、mitmproxy等工具抓包，会编写frida脚本抓包和自吐算法脚本。</li>
+    <li>会 JS 和微信小程序逆向技术，能够分析混淆代码和某些点选验证码/滑块；了解 AST。</li>
+    <li>拥有出色的学习能力，能够阅读英文文献，快速掌握新知识和技能，适应不断变化的技术环境。</li>
+  </ul>
 
-
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">实习经历</div>
   </div>
 
@@ -63,10 +64,10 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
-  </div>
+  </div> -->
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">奖项/证书</div>
+    <div class="text-3xl w-full font-bold">奖项</div>
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
@@ -82,14 +83,28 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank">大学生创新创业竞赛<strong>北京市良好</strong></a>
     </li>
+
+    <li>
+      <a href="#" target="_blank">奖学金：社会工作优秀奖</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">证书</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> 雅思（coming soon...）</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> 信息安全工程师（coming soon...）</a>
+    </li>
     <li>
       <a href="#" target="_blank"> CET 6 (大学英语六级)</a>
     </li>
     <li>
       <a href="#" target="_blank"> 计算机二级 (python)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank">奖学金：社会工作优秀奖</a>
     </li>
   </ul>
 
@@ -97,7 +112,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <div class="text-3xl w-full font-bold">技能</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
+  <ul class="list-disc md:columns-5 columns-2 mx-6 mb-10">
     <li>安卓逆向</li>
     <li>js逆向</li>
     <li>小程序逆向</li>
@@ -124,8 +139,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">专业课</div>
   </div>
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    传热学、工程流体力学、工程热力学、数学建模与MATLAB应用、理论力学、风力发电原理与课程设计、分布式能源系统、热力发电厂、工程制图与CAD、材料力学、燃烧学、机械设计、自动控制原理
+  <ul class="list-disc md:columns-4 columns-2 mx-6">
+    <li>传热学</li>
+    <li>工程流体力学</li>
+    <li>工程热力学</li>
+    <li>数学建模与MATLAB应用</li>
+    <li>理论力学</li>
+    <li>风力发电原理与课程设计</li>
+    <li>分布式能源系统</li>
+    <li>热力发电厂</li>
+    <li>工程制图与CAD</li>
+    <li>材料力学</li>
+    <li>燃烧学</li>
+    <li>机械设计</li>
+    <li>自动控制原理</li> 
   </ul>
 
 </BaseLayout>

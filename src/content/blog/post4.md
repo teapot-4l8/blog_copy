@@ -1,10 +1,10 @@
 ---
 title: "Demo Post 4"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "使用代理ip，建立数据库管理已创建用户。逆向`annikey` `sk`参数伪造创建用户请求。每分钟可刷xxx票，成功让幸运观众冲到榜一"
 pubDate: "Sep 12 2024"
 # heroImage: "/post_img.webp"
-badge: "Demo badge"
-tags: ["rust","tokio"]
+# badge: "Demo badge"
+tags: ["微信小程序逆向","js逆向"]
 ---
 
 前言：`app.json`文件不存在，有没有大佬有更好的解决办法？欢迎师傅们在评论区指点江山 :P

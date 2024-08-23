@@ -1,6 +1,6 @@
 ---
-title: "Demo Post 4"
-description: "使用代理ip，建立数据库管理已创建用户。逆向`annikey` `sk`参数伪造创建用户请求。每分钟可刷xxx票，成功让幸运观众冲到榜一"
+title: "Post 4 “投票儿”小程序刷票"
+description: "使用代理ip，建立数据库管理已创建用户。逆向`annikey` `sk`参数伪造创建用户请求。使用多线程，每分钟可刷xxx票，成功让幸运观众冲到榜一"
 pubDate: "Sep 12 2024"
 # heroImage: "/post_img.webp"
 # badge: "Demo badge"
